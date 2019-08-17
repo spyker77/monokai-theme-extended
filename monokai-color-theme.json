@@ -167,7 +167,7 @@
 		},
 		{
 			"name": "User-defined constant",
-			"scope": "constant.character.escape.python, constant.other, support.other.escape.special.regexp",
+			"scope": "constant.character, constant.other",
 			"settings": {
 				"foreground": "#AE81FF"
 			}
@@ -219,6 +219,14 @@
 				"foreground": "#A6E22E"
 			}
 		},
+        {
+            "name": "Meta function ",
+            "scope": "meta.function-call.generic.python",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#66D9EF"
+            }
+        },
 		{
 			"name": "Function name",
 			"scope": "entity.name.function",
@@ -235,13 +243,6 @@
 				"foreground": "#FD971F"
 			}
 		},
-        {
-            "name": "Method",
-            "scope": "meta.function-call.generic.python",
-            "settings": {
-                "foreground": "#66D9EF"
-            }
-        },
 		{
 			"name": "Tag name",
 			"scope": "entity.name.tag",
