@@ -142,6 +142,13 @@
 				"foreground": "#F92672"
 			}
 		},
+        {
+            "name": "Decorator Definition",
+            "scope": "punctuation.definition.decorator.python",
+            "settings": {
+                "foreground": "#F92672"
+            }
+        },
 		{
 			"name": "Reset JavaScript string interpolation expression",
 			"scope": [
