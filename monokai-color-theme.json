@@ -23,6 +23,7 @@
 		"selection.background": "#ccccc7",
 		"editor.selectionHighlightBackground": "#575b6180",
 		"editor.selectionBackground": "#878b9180",
+		"minimap.selectionHighlight": "#878b9180",
 		"editor.wordHighlightBackground": "#4a4a7680",
 		"editor.wordHighlightStrongBackground": "#6a6a9680",
 		"editor.lineHighlightBackground": "#3e3d32",
@@ -101,8 +102,7 @@
 		"terminal.ansiBrightCyan": "#66D9EF",
 		"terminal.ansiBrightWhite": "#f8f8f2"
 	},
-	"tokenColors": [
-		{
+	"tokenColors": [{
 			"settings": {
 				"background": "#272822",
 				"foreground": "#F8F8F2"
@@ -142,13 +142,6 @@
 				"foreground": "#F92672"
 			}
 		},
-        {
-            "name": "Decorator Definition",
-            "scope": "punctuation.definition.decorator.python",
-            "settings": {
-                "foreground": "#F92672"
-            }
-        },
 		{
 			"name": "Reset JavaScript string interpolation expression",
 			"scope": [
@@ -226,14 +219,6 @@
 				"foreground": "#A6E22E"
 			}
 		},
-        {
-            "name": "Meta function ",
-            "scope": "meta.function-call.generic.python",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#66D9EF"
-            }
-        },
 		{
 			"name": "Function name",
 			"scope": "entity.name.function",
@@ -434,6 +419,22 @@
 			"scope": "variable.language",
 			"settings": {
 				"foreground": "#FD971F"
+			}
+		},
+		// Additional setting for better highlighting
+		{
+			"name": "Decorator Definition",
+			"scope": "punctuation.definition.decorator.python",
+			"settings": {
+				"foreground": "#F92672"
+			}
+		},
+		{
+			"name": "Meta function ",
+			"scope": "meta.function-call.generic.python",
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#66D9EF"
 			}
 		}
 	]
