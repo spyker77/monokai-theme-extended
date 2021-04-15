@@ -1,3 +1,4 @@
+## INITIAL ANSWER
 This is designed for perfectionists who want to reproduce the visual experience from Sublime Text in Visual Studio Code, but are not satisfied with current marketplace solutions. Comparing to default theme, this version solves the problem with highlighting of methods and some additional inconsistencies.
 
 How to apply:
