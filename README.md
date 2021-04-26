@@ -82,13 +82,6 @@ It turns out that the previous solution is not sustainable. Therefore at the mom
                     "settings": {
                         "foreground": "#88846F",
                     }
-                },
-                {
-                    "name": "Keyword control flow python",
-                    "scope": "keyword.control.flow.python",
-                    "settings": {
-                        "foreground": "#88846F",
-                    }
                 }
             ]
         }
